@@ -156,3 +156,70 @@ footer {
   text-align: center;
   padding: 15px 0;
 }
+
+
+
+
+
+
+
+
+
+@media (max-width:768px){
+.container h1{
+font-size: 24px;
+
+}
+nav ul{
+flex-direction:column;
+width:100%;
+text-align:center;
+margin-top:20px;
+}
+
+nav ul li {
+margin:20px 0;
+}
+
+#hero{
+background-size: contain;
+}
+#hero h2{
+font-size: 24px;
+}
+
+#hero p{
+font-size: 16px;
+
+#menu {
+margin:20px 0;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.menu-items .item {
+  background-color: #f8f4ef;
+  border-radius: 10px;
+  padding: 20px;
+  flex: 1 1 30%;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menu-items .item img {
+  width: 50%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 14px;
+}
+
+
+}
+
+
