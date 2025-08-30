@@ -25,6 +25,13 @@ header {
   padding: 20px 0;
 }
 
+.container h1{
+font-size: 50px;
+text-align:left;
+color:gold;
+}
+
+
 header .container {
   display: flex;
   justify-content: space-between;
@@ -221,5 +228,6 @@ margin:20px 0;
 
 
 }
+
 
 
